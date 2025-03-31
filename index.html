@@ -1,0 +1,52 @@
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Tetris Game</title>
+       <style>
+           body {
+               margin: 0;
+               background-color: #222;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               height: 100vh;
+               color: white;
+               font-family: Arial, sans-serif;
+           }
+           #canvas {
+               border: 2px solid #444;
+           }
+           .game-container {
+               text-align: center;
+           }
+           h1 {
+               margin-bottom: 10px;
+           }
+           .instructions {
+               max-width: 500px;
+               margin: 20px auto;
+               text-align: left;
+               padding: 15px;
+               background-color: #333;
+               border-radius: 5px;
+           }
+       </style>
+   </head>
+   <body>
+       <div class="game-container">
+           <h1>Tetris Game</h1>
+           <div id="canvas"></div>
+           <div class="instructions">
+               <h3>Controls:</h3>
+               <p>← → : Move left/right</p>
+               <p>↓ : Move down</p>
+               <p>↑ : Rotate</p>
+               <p>Space : Hard drop</p>
+               <p>Ctrl+C : Hold piece</p>
+               <p>P : Pause</p>
+           </div>
+       </div>
+   </body>
+   </html>
